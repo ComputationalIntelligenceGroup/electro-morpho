@@ -1,12 +1,10 @@
-# ElectroMorpho 
+# PyMOReg: Multi-Output Regression in Python
 
-Analysis and prediction of morphological and electrophysiological features of neurons using model trained using
-experimental data. 
+This library contains algorithms used to perform regression on multiple (correlated) outputs simultaneously.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing 
-purposes. As of now this is only a prototype and only the dev version is available.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. As of now this is only a prototype and only the dev version is available.
 
 ### Prerequisites
 
@@ -29,9 +27,9 @@ These libraries come with the Anaconda bundle (www.anaconda.com) and for Linux u
 <sudo> apt-get install anaconda
 ```
 
-In case of Windows users an .exe installer is avalailable at (www.anaconda.com/download/). For a manual install of each 
+In case of Windows users an .exe installer is avalailable at (www.anaconda.com/download/). For a manual install of each
 library the user can execute:
-  
+
 ```
 conda install <library>
 
@@ -56,12 +54,13 @@ python setup.py install
 The library can now be imported into any development enviornment as:
 
 ```
-import electromorpho as emorph
+import pymoreg as mreg
 ```
-A notebook with examples on how to use the library is included in the repository 
-(see [example_notebook.ipynb](example_notebook.ipynb))
 
 ## Authors
 
-* **Milton Llera** - *Computational Intelligence Group, Universidad Politecnica de Madrid* - 
-[mllera14](https://github.com/mllera14), [CIG-UPM](https://github.com/ComputationalIntelligenceGroup)
+* **Milton Llera** - *Computational Intelligence Group, Universidad Politecnica de Madrid* - [mllera14](https://github.com/mllera14)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.txt) file for details
