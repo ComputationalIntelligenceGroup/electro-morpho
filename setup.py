@@ -13,9 +13,9 @@ from setuptools import find_packages, setup, Command
 
 # Package meta-data.
 NAME = 'electromorpho'
-DESCRIPTION = 'A python package for Multi-output Regression'
-URL = 'https://github.com/mllera14/multi-output-regression'
-EMAIL = 'lleramontero@gmail.com'
+DESCRIPTION = 'A python package for discovering relations between neuron attributes'
+URL = 'https://github.com/ComputationalIntelligenceGroup/electro-morpho'
+EMAIL = 'm.llera@upm.es'
 AUTHOR = 'Milton Llera'
 
 # What packages are required for this module to be executed?
